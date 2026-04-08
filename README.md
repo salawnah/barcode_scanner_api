@@ -12,13 +12,20 @@ Note: This project is built using the gemma-4-26b-a4b GenAI model with the help 
 * **Configurable**: Easily change the API key via environment variables.
 
 ## 🛠️ Prerequisites
-
 * [Docker](https://www.docker.com/) installed on your machine.
 
-## 📦 Setup & Building
+## 🚀 Quick Start (Pre-built Image)
+You can pull and run the pre-built Docker image directly from GitHub Container Registry:
+```bash
+docker run -d \
+  --name barcode-api-container \
+  -p 8000:8000 \
+  -e SCANNER_API_KEY="your-secret-key-here" \
+  ghcr.io/salawnah/barcode_scanner_api:main
+```
 
+## 📦 Setup & Building (Local Development)
 Navigate to the project directory and build the Docker image:
-
 ```bash
 cd barcode_scanner_api
 docker build -t barcode-scanner-api .
