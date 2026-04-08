@@ -1,7 +1,7 @@
 # Barcode & QR Code Scanner API
 
 An automated, containerized API built with FastAPI and `pyzbar` to decode barcodes and QR codes from uploaded images.
-Note: This project is built with the help of the gemma-4-26b-a4b GenAI model with the help of Continue (All copyrighted to their owners)
+Note: This project is built using the gemma-4-26b-a4b GenAI model with the help of Continue (All copyrighted to their owners)
 
 ## 🚀 Features
 
