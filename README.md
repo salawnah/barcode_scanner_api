@@ -1,13 +1,13 @@
 # Barcode & QR Code Scanner API
 
-An automated, containerized API built with FastAPI and `pyzbar` to decode barcodes and QR codes from uploaded images.
-Note: This project is built using the gemma-4-26b-a4b GenAI model with the help of Continue (All copyrighted to their owners)
+An automated, containerized API built with [FastAPI](https://fastapi.tiangolo.com/) and [`pyzbar`](https://pypi.org/project/pyzbar/) to decode barcodes and QR codes from uploaded images.
+Note: This project is built using the [gemma-4-26b-a4b](https://ai.google.dev/gemma) GenAI model with the help of Continue (All copyrighted to their owners)
 
 ## 🚀 Features
 
-* **FastAPI-powered**: High-performance asynchronous implementation.
+* [**FastAPI**](https://fastapi.tiangolo.com/)-powered: High-performance asynchronous implementation.
 * **Multi-format detection**: Supports various barcode formats (EAN13, Code128, etc.) and QR Codes.
-* **Containerized**: Ready to deploy with Docker using an Ubuntu 24.04 base image.
+* **Containerized**: Ready to deploy with Docker using an [Ubuntu 24.04](https://ubuntu.com/download/release?version=24.04) base image.
 * **Secure**: Protected by API Key authentication via the `X-API-Key` header.
 * **Configurable**: Easily change the API key via environment variables.
 
@@ -45,7 +45,7 @@ docker run -d \
 
 ## 🧪 Testing the API
 
-Once the container is running, you can test it using `curl`. Replace `your-secret-key-here` with the key you used in the run command.
+Once the container is running, you can test it using [`curl`](https://curl.se/). Replace `your-secret-key-here` with the key you used in the run command.
 
 ### 1. Test with correct API Key
 
@@ -70,5 +70,5 @@ curl -I -X 'POST' \
 
 * `main.py`: The core FastAPI application.
 * `Dockerfile`: Instructions for building the Ubuntu 24.04 container.
-* `requirements.txt`: Python dependencies (`fastapi`, `uvicorn`, `pyzbar`, etc.).
+* `requirements.txt`: Python dependencies ([`fastapi`](https://fastapi.tiangolo.com/), [`uvicorn`](https://www.uvicorn.org/), [`pyzbar`](https://pypi.org/project/pyzbar/), etc.).
 * `.gitignore`: Configured to keep your repository clean of junk files.
