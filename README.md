@@ -1,7 +1,7 @@
 # Barcode & QR Code Scanner API
 
 An automated, containerized API built with [FastAPI](https://fastapi.tiangolo.com/) and [`pyzbar`](https://pypi.org/project/pyzbar/) to decode barcodes and QR codes from uploaded images.
-Note: This project was developed using [Visual Studio Code](https://code.visualstudio.com/), utilizing the [gemma-4-26b-a4b](https://ai.google.dev/gemma) GenAI model with the help of Visual Studio Code and [Continue](https://www.continue.dev/) (All copyrighted to their owners)
+Note: This project was developed using [Visual Studio Code](https://code.visualstudio.com/), utilizing the [gemma-4-26b-a4b](https://ai.google.dev/gemma) GenAI model with the help of [Continue](https://www.continue.dev/) (All copyrighted to their owners)
 
 ## 🚀 Features
 
